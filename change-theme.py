@@ -3,6 +3,7 @@ from flet import Page, ElevatedButton, Row
 
 
 def main(page: Page):
+    # tambien se puede con dark
     page.theme_mode = 'light'
 
     def change_theme_clicked(event):
