@@ -3,6 +3,7 @@ from flet import Page, Checkbox, TextField, Row, ElevatedButton, Text
 
 
 def main(page: Page):
+    page.theme_mode = 'light'
     
     def add_task_clicked(event):
         if txt_new_task.value == '':
